@@ -1,0 +1,76 @@
+/* In order to validate your CSS code, click on the arrow at the top right of this window. Don't forget, you can have a look here : https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ 
+ */
+
+/* Your CSS code here */
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 80vw;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Amatic SC", cursive;
+}
+ul {
+  list-style: none;
+}
+section ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+section li {
+  margin: 0 15px;
+}
+section li h3 {
+  background: #ffc23d;
+  padding: 0 15px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffc107;
+  padding: 0 15px;
+}
+header h1 {
+  color: #155d03;
+}
+nav li a {
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f0101;
+  text-decoration: none;
+}
+nav li:last-child a {
+  padding: 0;
+}
+.total_price {
+  font-size: large;
+}
+footer {
+  padding: 0;
+  line-height: 1;
+  padding: 0 15px;
+  margin: 0;
+  display: flex;
+  background: #1f1e1e;
+  justify-content: flex-end;
+}
+footer a {
+  font-size: x-small;
+  color: #afaeae;
+  text-decoration: none;
+  text-align: right;
+}
